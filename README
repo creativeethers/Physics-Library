@@ -14,7 +14,7 @@ Calculates final velocity given the initial velocity, time, and acceleration.
 
 
 float position (float initial_position, float initial_velocity, float time, float acceleration);
-/*Calculates final position given the initial position, initial velocity, time, and acceleration.
+Calculates final position given the initial position, initial velocity, time, and acceleration.
 
 
 float position_velocity (float initial_velocity, float acceleration, float initial_position, float final_position);

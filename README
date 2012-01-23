@@ -1,0 +1,58 @@
+
+/****************************************
+***********CPhysicsLibrary***************
+***************README********************
+*******Copyright(c) Alex Mawla 2012.*****
+*********All Rights Reserved.************
+*****************************************/
+
+Physics Library for the C Programming Language
+
+
+float time_velocity (float initial_velocity, float time, float acceleration);
+Calculates final velocity given the initial velocity, time, and acceleration.
+
+
+float position (float initial_position, float initial_velocity, float time, float acceleration);
+/*Calculates final position given the initial position, initial velocity, time, and acceleration.
+
+
+float position_velocity (float initial_velocity, float acceleration, float initial_position, float final_position);
+Calculates final position given the initial velocity, acceleration, initial position, and final position.
+
+
+float newt_net_force (float mass, float acceleration);
+Calculates net force given mass and acceleration.
+
+
+float friction_force (float coeff_of_friction, float normal_force);
+Calculates the force of friction given the coefficient of friction and normal force. 
+
+
+float centrip_acceleration (float velocity, float radius);
+Calculates centripital acceleration given velocity and radius. 
+
+
+float torque (float radius, float force, float theta);
+Calculates torque given radius, force, and theta. 
+
+
+float momentum (float mass, float velocity);
+Calculates momentum given mass and velocity. 
+
+
+float energy_kinetic (float mass, float velocity);
+Calculates kinetic energy given mass and velocity.
+
+
+float newt_power (float force, float velocity, float theta);
+Calculates power given force, velocity, and theta. 
+
+
+float period (float frequency);
+Calculates period given frequency. 
+
+
+float nuc_energy_freq (float frequency, float Planck);
+Calculates the nuclear energy frequency given frequency and Planck's constant. 
+
